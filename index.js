@@ -72,3 +72,7 @@ server.delete('/api/users/:id', ( req, res ) => {
             res.status(500).json({message: 'ERROR removing the user'});
         })
 })
+
+server.put('/api/users/:id', ( req, res ) => {
+    test
+})
